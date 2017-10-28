@@ -27,3 +27,10 @@ class DoubanMovieItem(scrapy.Item):
 class BaiduBaikeItem(scrapy.Item):
     # 姓名
     name = scrapy.Field()
+
+class EduItem(scrapy.Item):
+    # html
+    html = scrapy.Field()
+    title = scrapy.Field()
+    link = scrapy.Field()
+    desc = scrapy.Field()
